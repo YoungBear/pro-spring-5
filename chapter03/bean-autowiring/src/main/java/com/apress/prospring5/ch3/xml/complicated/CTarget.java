@@ -41,7 +41,7 @@ public class CTarget {
 	public static void main(String... args) {
 		GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
 		//using primary
-		//ctx.load("classpath:spring/app-context-04.xml");
+//		ctx.load("classpath:spring/app-context-04.xml");
 
 		//using qualifier
 		ctx.load("classpath:spring/app-context-05.xml");

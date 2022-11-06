@@ -1,12 +1,15 @@
 package com.apress.prospring5.ch3.xml;
 
-import org.springframework.context.support.GenericXmlApplicationContext;
 import com.apress.prospring5.ch3.Oracle;
+import org.springframework.context.support.GenericXmlApplicationContext;
 
+/**
+ * 通过使用ref标记可以将一个bean注入到另一个bean
+ */
 public class InjectRef {
     private Oracle oracle;
 
-    public void setOracle(Oracle oracle) { 
+    public void setOracle(Oracle oracle) {
         this.oracle = oracle;
     }
 

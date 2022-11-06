@@ -8,6 +8,7 @@ import org.springframework.context.support.GenericApplicationContext;
 
 /**
  * Created by iuliana.cosmina on 2/25/17.
+ * 使用java配置
  */
 public class TargetDemo {
 

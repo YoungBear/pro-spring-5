@@ -4,6 +4,9 @@ import org.springframework.beans.factory.support.MethodReplacer;
 
 import java.lang.reflect.Method;
 
+/**
+ * 方法替换
+ */
 public class FormatMessageReplacer implements MethodReplacer {
 
 	@Override

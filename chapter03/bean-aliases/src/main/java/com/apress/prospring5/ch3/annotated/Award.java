@@ -6,6 +6,7 @@ import java.lang.annotation.*;
 
 /**
  * Created by iuliana.cosmina on 2/19/17.
+ * prize和value互为别名 使用 @AliasFor
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

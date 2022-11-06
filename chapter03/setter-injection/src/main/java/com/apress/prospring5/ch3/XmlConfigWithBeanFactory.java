@@ -11,7 +11,8 @@ public class XmlConfigWithBeanFactory {
 		XmlBeanDefinitionReader rdr = new XmlBeanDefinitionReader(factory);
 		rdr.loadBeanDefinitions(new
 				ClassPathResource("spring/xml-bean-factory-config.xml"));
-		Oracle oracle = (Oracle) factory.getBean("oracle");
+		Oracle oracle = (Oracle) factory.getBean("wiseworm");
+//		Oracle oracle = (Oracle) factory.getBean("oracle");
 		System.out.println(oracle.defineMeaningOfLife());
 	}
 }
