@@ -18,7 +18,7 @@ public class EnvironmentSampleLast {
         MutablePropertySources propertySources = env.getPropertySources();
 
         Map<String,Object> appMap = new HashMap<>();
-        appMap.put("application.home", "application_home");
+        appMap.put("user.home", "application_home");
 
         propertySources.addLast(new MapPropertySource("prospring5_MAP", appMap));
 
@@ -28,7 +28,7 @@ public class EnvironmentSampleLast {
         System.out.println("user.home: " + env.getProperty("user.home"));
         System.out.println("JAVA_HOME: " + env.getProperty("JAVA_HOME"));
 
-        System.out.println("application.home: " + env.getProperty("application.home"));
+//        System.out.println("application.home: " + env.getProperty("application.home"));
 
         ctx.close();
     }
